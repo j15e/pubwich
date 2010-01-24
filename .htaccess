@@ -1,0 +1,6 @@
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpeg "modification plus 5 years"
+ExpiresByType image/png "modification plus 5 years"
+ExpiresByType image/gif "modification plus 5 years"
+</IfModule>
