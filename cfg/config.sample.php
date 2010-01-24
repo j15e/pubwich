@@ -130,6 +130,17 @@
 						'description' => 'latest atom blog entries'
 					)
 				),
+				
+				array( 'Readitlater', 'ril', array(
+						'username' => 'READITLATER_USERID_HERE',
+						'password' => 'READITLATER_PASSWORD_HERE',
+						'apikey' => 'READITLATER_KEY_HERE',
+						'total' => 5,
+						'title' => 'Read it later',
+						'description' => 'read or <em>to be read</em>',
+						'getTitle' => true // get page title (slow, enable cache!)
+					)
+				),
 			),
 			array(
 

@@ -421,6 +421,24 @@ h1 a:hover {
 	line-height: 1.2;
 }
 
+/**
+ *	Readitlater
+ ******************************************************************/
+.readitlater li p {
+	display: block;
+	margin-left: 95px;
+}
+
+.readitlater li span.date {
+	display: block;
+	float: left;
+	width: 85px;
+	margin-right: 10px;
+}
+
+.readitlater li.state0 p {
+	font-style: italic;
+}
 
 /**
  *	Facebook
