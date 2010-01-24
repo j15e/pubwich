@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title><?php echo PUBWICH_TITLE?></title>
-		<link rel="stylesheet" media="screen" href="<?php echo Pubwich::getThemeUrl()?>/style.css" type="text/css">
+		<link rel="stylesheet" media="screen" href="/min/?b=<?php echo trim(Pubwich::getThemeUrl(), '/'	)?>&f=reset.css,style.css" type="text/css">
 <?php echo Pubwich::getHeader() ?>
 	</head>
 	<body>
